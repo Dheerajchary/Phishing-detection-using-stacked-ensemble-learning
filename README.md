@@ -23,8 +23,8 @@
 
 ```
 Phishing Dataset (58,000 samples, 111 features)
-        │
-        ▼
+                      │
+                      ▼
  ┌─────────────────────────────────────────────┐
  │  EDA + Cleaning                             │
  │  Remove duplicates                          │
@@ -72,7 +72,7 @@ Phishing Dataset (58,000 samples, 111 features)
 
 ## 📊 Final Results
 
-Layer 1 : Base Models
+**Layer 1 : Base Models**
 
 | Algorithm              | Accuracy | Precision | Recall | F1-Score |
 | ---------------------- | -------- | --------- | ------ | -------- |
@@ -82,7 +82,7 @@ Layer 1 : Base Models
 | AdaBoostClassifier     | 0.885    | 0.892     | 0.892  | 0.892    |
 | HistGradientBoosting   | 0.939    | 0.938     | 0.948  | 0.943    |
 
-Layer 2 : Ensemble Models
+**Layer 2 : Ensemble Models**
 
 | Algorithm            | Accuracy | Precision | Recall | F1-Score |
 | -------------------- | -------- | --------- | ------ | -------- |
@@ -91,7 +91,7 @@ Layer 2 : Ensemble Models
 | KNeighborsClassifier | 0.948    | 0.953     | 0.949  | 0.951    |
 
 
-Layer 3 : Meta Model
+**Layer 3 : Meta Model**
 
 | Meta Model  | Accuracy  | Precision | Recall    | F1-Score  |
 | ----------- | --------- | --------- | --------- | --------- |
